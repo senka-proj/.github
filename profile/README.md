@@ -34,7 +34,7 @@
 
 <table>
 <tr>
-<td width="60%">
+<td width="70%">
 
 这是 **[@n1ghts4kura](https://github.com/n1ghts4kura)** 为了锻炼自己的 **Rust 编码能力** 与 **高级 Agent 开发能力** 所创建的一个项目。
 
@@ -43,18 +43,9 @@
 > *"The best way to predict the future is to create it."*
 
 </td>
-<td width="40%" align="center">
+<td width="30%" align="center">
 
-```
-   _____            _         ____            _
-  / ____|          | |       |  _ \          (_)
- | (___   ___ _ __ | | ____ _| |_) |_ __ ___  _
-  \___ \ / _ \ '_ \| |/ / _' |  _ <| '__/ _ \| |
-  ____) |  __/ | | |   < (_| | |_) | | | (_) | |
- |_____/ \___|_| |_|_|\_\__,_|____/|_|  \___/| |
-                                            _/ |
-                                           |__/
-```
+<img src="../assets/hzm_pic.jpg" alt="Senka Proj" width="100%" style="border-radius: 12px;" />
 
 </td>
 </tr>

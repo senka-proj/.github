@@ -1,0 +1,73 @@
+<svg width="1200" height="288" viewBox="0 0 1200 288" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Sakura gradient -->
+    <linearGradient id="sakura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD6E0"/>
+      <stop offset="35%" stop-color="#FFBECB"/>
+      <stop offset="65%" stop-color="#FF9CAD"/>
+      <stop offset="100%" stop-color="#FF78BC"/>
+    </linearGradient>
+
+    <!-- Text drop shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000030"/>
+    </filter>
+
+    <!-- Sakura flower petal -->
+    <g id="petal">
+      <ellipse cx="0" cy="-8" rx="3.5" ry="8" fill="#FFFFFF" opacity="0.45"/>
+    </g>
+
+    <!-- 5-petal sakura flower -->
+    <g id="flower">
+      <use href="#petal" transform="rotate(0)"/>
+      <use href="#petal" transform="rotate(72)"/>
+      <use href="#petal" transform="rotate(144)"/>
+      <use href="#petal" transform="rotate(216)"/>
+      <use href="#petal" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2.8" fill="#FFF0F3" opacity="0.85"/>
+    </g>
+  </defs>
+
+  <!-- Background with wave bottom (scaled ×1.44 from original) -->
+  <path d="
+    M 0,0
+    H 1200
+    V 216
+    C 1100,281 1000,173 800,223
+    C 600,274 500,173 300,228
+    C 100,281 0,180 0,238
+    Z
+  " fill="url(#sakura)"/>
+
+  <!-- Title text -->
+  <text x="600" y="154" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', serif" font-size="89" font-weight="normal" font-style="italic" letter-spacing="4" fill="#FFFFFF" filter="url(#shadow)">senka proj</text>
+
+  <!-- Sakura flowers -->
+  <use href="#flower" transform="translate( 95, 101) scale(0.80)"/>
+  <use href="#flower" transform="translate(260,  70) scale(0.60)"/>
+  <use href="#flower" transform="translate(880,  74) scale(0.72)"/>
+  <use href="#flower" transform="translate(1100,108) scale(0.85)"/>
+  <use href="#flower" transform="translate(500, 202) scale(0.50)"/>
+  <use href="#flower" transform="translate(720, 199) scale(0.55)"/>
+
+  <!-- Floating petals -->
+  <ellipse cx="170"  cy="60"  rx="2.8" ry="5.5" fill="#FFFFFF" opacity="0.35" transform="rotate( 30, 170, 60)"/>
+  <ellipse cx="390"  cy="151" rx="2.5" ry="5.0" fill="#FFFFFF" opacity="0.28" transform="rotate(-20, 390, 151)"/>
+  <ellipse cx="640"  cy="55"  rx="3.0" ry="5.5" fill="#FFFFFF" opacity="0.32" transform="rotate( 45, 640, 55)"/>
+  <ellipse cx="950"  cy="144" rx="2.2" ry="4.8" fill="#FFFFFF" opacity="0.28" transform="rotate(-35, 950, 144)"/>
+  <ellipse cx="1140" cy="70"  rx="2.5" ry="5.0" fill="#FFFFFF" opacity="0.30" transform="rotate( 15, 1140, 70)"/>
+  <ellipse cx="55"   cy="142" rx="2.0" ry="4.5" fill="#FFFFFF" opacity="0.25" transform="rotate(-40, 55, 142)"/>
+  <ellipse cx="440"  cy="79"  rx="2.0" ry="4.0" fill="#FFFFFF" opacity="0.28" transform="rotate( 60, 440, 79)"/>
+  <ellipse cx="590"  cy="170" rx="2.5" ry="5.0" fill="#FFFFFF" opacity="0.22" transform="rotate(-10, 590, 170)"/>
+
+  <!-- Sparkle dots -->
+  <circle cx="200"  cy="166" r="2.0" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="460"  cy="118" r="1.5" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="680"  cy="103" r="2.0" fill="#FFFFFF" opacity="0.50"/>
+  <circle cx="1000" cy="161" r="1.5" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="340"  cy="216" r="1.5" fill="#FFFFFF" opacity="0.40"/>
+  <circle cx="830"  cy="209" r="1.5" fill="#FFFFFF" opacity="0.40"/>
+  <circle cx="530"  cy="65"  r="1.2" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="780"  cy="72"  r="1.2" fill="#FFFFFF" opacity="0.35"/>
+</svg>
